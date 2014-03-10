@@ -10,15 +10,15 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://github.com/spree/spree-store-credits'
   s.summary     = 'Provides store credits for a Spree store.'
   s.description = 'Provides store credits for a Spree store.'
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 1.9.3'
   s.rubygems_version      = '1.3.6'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency 'spree_core', '~> 1.1'
-  s.add_dependency 'spree_promo', '~> 1.1'
+  s.add_dependency 'spree_core', '~> 1.2.0'
+  s.add_dependency 'spree_promo', '~> 1.2.0'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'ffaker'
